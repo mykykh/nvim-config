@@ -1,3 +1,5 @@
+require('plugins')
+
 vim.opt.ruler = true
 
 vim.opt.hlsearch = true
