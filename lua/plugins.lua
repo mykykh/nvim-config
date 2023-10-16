@@ -24,6 +24,10 @@ return require('packer').startup(function(use)
         "neovim/nvim-lspconfig",
     }
 
+    -- completion
+    use "ms-jpq/coq_nvim"
+    use 'ms-jpq/coq.artifacts'
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then
